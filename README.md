@@ -5,5 +5,5 @@
 <img src="https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square" alt=donate>
 </a>
 <img src="https://img.shields.io/github/repo-size/VincentNOURY/Projet-Graphes.svg?label=Repo%20size&style=flat-square">
-![pylint](https://github.com/VincentNOURY/Projet-Graphes/actions/workflows/flake8.yaml/badge.svg)
-![flake8](https://github.com/VincentNOURY/Projet-Graphes/actions/workflows/pylint.yaml/badge.svg)
+![pylint](https://github.com/VincentNOURY/Projet-Graphes/actions/workflows/flake8.yml/badge.svg)
+![flake8](https://github.com/VincentNOURY/Projet-Graphes/actions/workflows/pylint.yml/badge.svg)
