@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint A-117\ main.py
+        pylint --disable=C0103 A-117\ main.py
