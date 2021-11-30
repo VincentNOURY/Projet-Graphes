@@ -164,20 +164,21 @@ def contains_negative_circle(matrix: list) -> bool:
     return False
 
 
-def shortest_path(p_matrix: list):
+def shortest_path(p_matrix: list, l_matrix : list):
     """
     Descrition : Displays the sortest path from a point A to a point B
 
     Arguments :
         - p_matrix (2D int list) : the P matrix after floyd-warshall algorithm
+        - l_matrix (2D int list) : the L matrix after floyd-warshall algorithm
 
     Result : Prints every path
     """
 
     for index, line in enumerate(p_matrix):
-        for jndex, value in enumerate(line):
+        for jndex in range(len(line)):
             list_for_path = []
-            if value < float('inf'):
+            if str(l_matrix[index][jndex]) != "inf":
                 print(f"Le plus court chemin de {index} a {jndex} est :")
                 list_for_path.append(jndex)
                 while list_for_path[-1] != index:
@@ -200,7 +201,7 @@ def main():
 
     while True:
         print("Veuillez entrer l'identifiant de la matrice :")
-        matrix_info = read_matrix(f"matrix{int(input())}.txt")
+        matrix_info = read_matrix(f"Graphs/graph{int(input())}.txt")
         nbr_vertices = matrix_info[0]
         edges = matrix_info[2]
         edges_treatment(edges)
@@ -208,11 +209,11 @@ def main():
         print("Affichage de la matrice d'adjacence : ")
         print_matrix(adjacency_matrix)
 
-        fl_result, p_matrix = floyd_warshall(adjacency_matrix)
-        if contains_negative_circle(fl_result):
+        l_matrix, p_matrix = floyd_warshall(adjacency_matrix)
+        if contains_negative_circle(l_matrix):
             print("Ce graphe contient un cycle absorbant.")
         else:
-            shortest_path(p_matrix)
+            shortest_path(p_matrix, l_matrix)
         print("Souhaitez-vous continuer (y/n) ?")
         if input().lower() != "y":
             break
