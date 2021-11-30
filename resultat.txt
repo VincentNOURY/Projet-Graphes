@@ -1,4 +1,1472 @@
 Veuillez entrer l'identifiant de la matrice :
+1
+Affichage de la matrice d'adjacence : 
+  0    1    5   inf 
+ inf   0    3    5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    5   inf 
+ inf   0    3    5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 1 :
+  0    1    4    6  
+ inf   0    3    5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  1  1 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 2 :
+  0    1    4    6  
+ inf   0    3    5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  1  1 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 3 :
+  0    1    4    6  
+ inf   0    3    5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  1  1 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 1 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 1 -> 3
+Il n'existe pas de chemin entre 1 et 0.
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 3
+Il n'existe pas de chemin entre 2 et 0.
+Il n'existe pas de chemin entre 2 et 1.
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Il n'existe pas de chemin entre 3 et 0.
+Il n'existe pas de chemin entre 3 et 1.
+Il n'existe pas de chemin entre 3 et 2.
+Le plus court chemin de 3 a 3 est :
+3
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+2
+Affichage de la matrice d'adjacence : 
+  0    1    5   inf 
+ inf   0    -3   5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    5   inf 
+ inf   0    -3   5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 1 :
+  0    1    -2   6  
+ inf   0    -3   5  
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  1  1 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 2 :
+  0    1    -2   0  
+ inf   0    -3   -1 
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  1  2 
+ 1  1  1  2 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 3 :
+  0    1    -2   0  
+ inf   0    -3   -1 
+ inf  inf   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  1  2 
+ 1  1  1  2 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 1 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 1 -> 2 -> 3
+Il n'existe pas de chemin entre 1 et 0.
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 2 -> 3
+Il n'existe pas de chemin entre 2 et 0.
+Il n'existe pas de chemin entre 2 et 1.
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Il n'existe pas de chemin entre 3 et 0.
+Il n'existe pas de chemin entre 3 et 1.
+Il n'existe pas de chemin entre 3 et 2.
+Le plus court chemin de 3 a 3 est :
+3
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+3
+Affichage de la matrice d'adjacence : 
+  0    1    -5  inf 
+ inf   0    -3   2  
+ inf   4    0    2  
+ inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    -5  inf 
+ inf   0    -3   2  
+ inf   4    0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 1 :
+  0    1    -5   3  
+ inf   0    -3   2  
+ inf   4    0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  1 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 2 :
+  0    -1   -5   -3 
+ inf   0    -3   -1 
+ inf   4    0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  2  0  2 
+ 1  1  1  2 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 3 :
+  0    -1   -5   -3 
+ inf   0    -3   -1 
+ inf   4    0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  2  0  2 
+ 1  1  1  2 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 2 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 2 -> 3
+Il n'existe pas de chemin entre 1 et 0.
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 2 -> 3
+Il n'existe pas de chemin entre 2 et 0.
+Le plus court chemin de 2 a 1 est :
+2 -> 1
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Il n'existe pas de chemin entre 3 et 0.
+Il n'existe pas de chemin entre 3 et 1.
+Il n'existe pas de chemin entre 3 et 2.
+Le plus court chemin de 3 a 3 est :
+3
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+4
+Affichage de la matrice d'adjacence : 
+  0    1    -5  inf 
+ inf   0    -3   2  
+ inf   -1   0    2  
+ inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    -5  inf 
+ inf   0    -3   2  
+ inf   -1   0    2  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 1 :
+  0    1    -5   3  
+ inf   0    -3   2  
+ inf   -1   -4   1  
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  1 
+ 1  1  1  1 
+ 2  2  1  1 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 2 :
+  0    -6   -9   -8 
+ inf   -4   -7   -6 
+ inf   -5   -8   -7 
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  2  1  1 
+ 1  2  1  1 
+ 2  2  1  1 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 3 :
+  0    -6   -9   -8 
+ inf   -4   -7   -6 
+ inf   -5   -8   -7 
+ inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  2  1  1 
+ 1  2  1  1 
+ 2  2  1  1 
+ 3  3  3  3 
+
+
+Ce graphe contient un cycle absorbant.
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+5
+Affichage de la matrice d'adjacence : 
+  0    1    -5  inf 
+ inf   0    -3   2  
+  6    4    0    2  
+ inf  inf   2    0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    -5  inf 
+ inf   0    -3   2  
+  6    4    0    2  
+ inf  inf   2    0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 1 :
+  0    1    -5   3  
+ inf   0    -3   2  
+  6    4    0    2  
+ inf  inf   2    0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  1 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 2 :
+ 0   -1  -5  -3 
+ 3   0   -3  -1 
+ 6   4   0   2  
+ 8   6   2   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  2  0  2 
+ 2  1  1  2 
+ 2  2  2  2 
+ 2  2  3  3 
+
+
+Matrice L a l'iteration 3 :
+ 0   -1  -5  -3 
+ 3   0   -3  -1 
+ 6   4   0   2  
+ 8   6   2   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  2  0  2 
+ 2  1  1  2 
+ 2  2  2  2 
+ 2  2  3  3 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 2 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 2 -> 3
+Le plus court chemin de 1 a 0 est :
+1 -> 2 -> 0
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 2 -> 3
+Le plus court chemin de 2 a 0 est :
+2 -> 0
+Le plus court chemin de 2 a 1 est :
+2 -> 1
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Le plus court chemin de 3 a 0 est :
+3 -> 2 -> 0
+Le plus court chemin de 3 a 1 est :
+3 -> 2 -> 1
+Le plus court chemin de 3 a 2 est :
+3 -> 2
+Le plus court chemin de 3 a 3 est :
+3
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+6
+Affichage de la matrice d'adjacence : 
+  0    1    -5  inf 
+ inf   -1   -3   2  
+  6    4    0    2  
+ inf  inf   2    0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    -5  inf 
+ inf   -1   -3   2  
+  6    4    0    2  
+ inf  inf   2    0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0 
+ 1  1  1  1 
+ 2  2  2  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 1 :
+  0    0    -5   2  
+ inf   -2   -5   0  
+  6    2    -3   2  
+ inf  inf   2    0  
+
+
+Matrice P a l'iteration 1 :
+ 0  1  0  1 
+ 1  1  1  1 
+ 2  1  1  2 
+ 3  3  3  3 
+
+
+Matrice L a l'iteration 2 :
+ 0   -3  -8  -6 
+ 1   -3  -8  -6 
+ 3   -1  -6  -4 
+ 5   1   -4  -8 
+
+
+Matrice P a l'iteration 2 :
+ 0  1  1  2 
+ 2  1  1  2 
+ 2  1  1  2 
+ 2  1  1  2 
+
+
+Matrice L a l'iteration 3 :
+  -1   -5  -10  -14 
+  -1   -5  -10  -14 
+  1    -3   -8  -12 
+  -3   -7  -12  -16 
+
+
+Matrice P a l'iteration 3 :
+ 2  1  1  2 
+ 2  1  1  2 
+ 2  1  1  2 
+ 2  1  1  2 
+
+
+Ce graphe contient un cycle absorbant.
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+7
+Affichage de la matrice d'adjacence : 
+  0    2    -5  inf  inf  inf  inf 
+ inf   3    -3   3   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+ inf  inf   2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5   inf 
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    2    -5  inf  inf  inf  inf 
+ inf   3    -3   3   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+ inf  inf   2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5   inf 
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0  0  0  0 
+ 1  1  1  1  1  1  1 
+ 2  2  2  2  2  2  2 
+ 3  3  3  3  3  3  3 
+ 4  4  4  4  4  4  4 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Matrice L a l'iteration 1 :
+  0    2    -5   5   inf  inf  inf 
+ inf   3    -3   3   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+ inf  inf   2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5   inf 
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  1  0  0  0 
+ 1  1  1  1  1  1  1 
+ 2  2  2  2  2  2  2 
+ 3  3  3  3  3  3  3 
+ 4  4  4  4  4  4  4 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Matrice L a l'iteration 2 :
+  0    -1   -5   -2  inf  inf  inf 
+  4    1    -3   0   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+  9    6    2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5   inf 
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  2  0  2  0  0  0 
+ 2  2  1  2  1  1  1 
+ 2  2  2  2  2  2  2 
+ 2  2  3  3  3  3  3 
+ 4  4  4  4  4  4  4 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Matrice L a l'iteration 3 :
+  0    -1   -5   -2  inf  inf  inf 
+  4    1    -3   0   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+  9    6    2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5   inf 
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  2  0  2  0  0  0 
+ 2  2  1  2  1  1  1 
+ 2  2  2  2  2  2  2 
+ 2  2  3  3  3  3  3 
+ 4  4  4  4  4  4  4 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Matrice L a l'iteration 4 :
+  0    -1   -5   -2  inf  inf  inf 
+  4    1    -3   0   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+  9    6    2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5   inf 
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 4 :
+ 0  2  0  2  0  0  0 
+ 2  2  1  2  1  1  1 
+ 2  2  2  2  2  2  2 
+ 2  2  3  3  3  3  3 
+ 4  4  4  4  4  4  4 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Matrice L a l'iteration 5 :
+  0    -1   -5   -2  inf  inf  inf 
+  4    1    -3   0   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+  9    6    2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5    3  
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 5 :
+ 0  2  0  2  0  0  0 
+ 2  2  1  2  1  1  1 
+ 2  2  2  2  2  2  2 
+ 2  2  3  3  3  3  3 
+ 4  4  4  4  4  4  5 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Matrice L a l'iteration 6 :
+  0    -1   -5   -2  inf  inf  inf 
+  4    1    -3   0   inf  inf  inf 
+  7    4    0    3   inf  inf  inf 
+  9    6    2    0   inf  inf  inf 
+ inf  inf  inf  inf   0    5    3  
+ inf  inf  inf  inf   2    0    -2 
+ inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 6 :
+ 0  2  0  2  0  0  0 
+ 2  2  1  2  1  1  1 
+ 2  2  2  2  2  2  2 
+ 2  2  3  3  3  3  3 
+ 4  4  4  4  4  4  5 
+ 5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 2 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 2 -> 3
+Il n'existe pas de chemin entre 0 et 4.
+Il n'existe pas de chemin entre 0 et 5.
+Il n'existe pas de chemin entre 0 et 6.
+Le plus court chemin de 1 a 0 est :
+1 -> 2 -> 0
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 2 -> 3
+Il n'existe pas de chemin entre 1 et 4.
+Il n'existe pas de chemin entre 1 et 5.
+Il n'existe pas de chemin entre 1 et 6.
+Le plus court chemin de 2 a 0 est :
+2 -> 0
+Le plus court chemin de 2 a 1 est :
+2 -> 1
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Il n'existe pas de chemin entre 2 et 4.
+Il n'existe pas de chemin entre 2 et 5.
+Il n'existe pas de chemin entre 2 et 6.
+Le plus court chemin de 3 a 0 est :
+3 -> 2 -> 0
+Le plus court chemin de 3 a 1 est :
+3 -> 2 -> 1
+Le plus court chemin de 3 a 2 est :
+3 -> 2
+Le plus court chemin de 3 a 3 est :
+3
+Il n'existe pas de chemin entre 3 et 4.
+Il n'existe pas de chemin entre 3 et 5.
+Il n'existe pas de chemin entre 3 et 6.
+Il n'existe pas de chemin entre 4 et 0.
+Il n'existe pas de chemin entre 4 et 1.
+Il n'existe pas de chemin entre 4 et 2.
+Il n'existe pas de chemin entre 4 et 3.
+Le plus court chemin de 4 a 4 est :
+4
+Le plus court chemin de 4 a 5 est :
+4 -> 5
+Le plus court chemin de 4 a 6 est :
+4 -> 5 -> 6
+Il n'existe pas de chemin entre 5 et 0.
+Il n'existe pas de chemin entre 5 et 1.
+Il n'existe pas de chemin entre 5 et 2.
+Il n'existe pas de chemin entre 5 et 3.
+Le plus court chemin de 5 a 4 est :
+5 -> 4
+Le plus court chemin de 5 a 5 est :
+5
+Le plus court chemin de 5 a 6 est :
+5 -> 6
+Il n'existe pas de chemin entre 6 et 0.
+Il n'existe pas de chemin entre 6 et 1.
+Il n'existe pas de chemin entre 6 et 2.
+Il n'existe pas de chemin entre 6 et 3.
+Il n'existe pas de chemin entre 6 et 4.
+Il n'existe pas de chemin entre 6 et 5.
+Le plus court chemin de 6 a 6 est :
+6
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+8
+Affichage de la matrice d'adjacence : 
+  0    1    2    1   inf 
+ inf   0   inf  inf   3  
+ inf  inf   0    1    1  
+ inf  inf  inf   0    4  
+ inf  inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    2    1   inf 
+ inf   0   inf  inf   3  
+ inf  inf   0    1    1  
+ inf  inf  inf   0    4  
+ inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0  0 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 1 :
+  0    1    2    1    4  
+ inf   0   inf  inf   3  
+ inf  inf   0    1    1  
+ inf  inf  inf   0    4  
+ inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  0  1 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 2 :
+  0    1    2    1    3  
+ inf   0   inf  inf   3  
+ inf  inf   0    1    1  
+ inf  inf  inf   0    4  
+ inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  0  0  2 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 3 :
+  0    1    2    1    3  
+ inf   0   inf  inf   3  
+ inf  inf   0    1    1  
+ inf  inf  inf   0    4  
+ inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  0  0  2 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 4 :
+  0    1    2    1    3  
+ inf   0   inf  inf   3  
+ inf  inf   0    1    1  
+ inf  inf  inf   0    4  
+ inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 4 :
+ 0  0  0  0  2 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 3
+Le plus court chemin de 0 a 4 est :
+0 -> 2 -> 4
+Il n'existe pas de chemin entre 1 et 0.
+Le plus court chemin de 1 a 1 est :
+1
+Il n'existe pas de chemin entre 1 et 2.
+Il n'existe pas de chemin entre 1 et 3.
+Le plus court chemin de 1 a 4 est :
+1 -> 4
+Il n'existe pas de chemin entre 2 et 0.
+Il n'existe pas de chemin entre 2 et 1.
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Le plus court chemin de 2 a 4 est :
+2 -> 4
+Il n'existe pas de chemin entre 3 et 0.
+Il n'existe pas de chemin entre 3 et 1.
+Il n'existe pas de chemin entre 3 et 2.
+Le plus court chemin de 3 a 3 est :
+3
+Le plus court chemin de 3 a 4 est :
+3 -> 4
+Il n'existe pas de chemin entre 4 et 0.
+Il n'existe pas de chemin entre 4 et 1.
+Il n'existe pas de chemin entre 4 et 2.
+Il n'existe pas de chemin entre 4 et 3.
+Le plus court chemin de 4 a 4 est :
+4
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+9
+Affichage de la matrice d'adjacence : 
+  0    1    2    1   inf 
+ inf   2   inf  inf  inf 
+ inf  inf   0    -2   1  
+ inf  inf  inf   0    4  
+ inf   3   inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1    2    1   inf 
+ inf   2   inf  inf  inf 
+ inf  inf   0    -2   1  
+ inf  inf  inf   0    4  
+ inf   3   inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0  0 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 1 :
+  0    1    2    1   inf 
+ inf   2   inf  inf  inf 
+ inf  inf   0    -2   1  
+ inf  inf  inf   0    4  
+ inf   3   inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  0  0 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 2 :
+  0    1    2    0    3  
+ inf   2   inf  inf  inf 
+ inf  inf   0    -2   1  
+ inf  inf  inf   0    4  
+ inf   3   inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  0  2  2 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 3 :
+  0    1    2    0    3  
+ inf   2   inf  inf  inf 
+ inf  inf   0    -2   1  
+ inf  inf  inf   0    4  
+ inf   3   inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  0  2  2 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 4 :
+  0    1    2    0    3  
+ inf   2   inf  inf  inf 
+ inf   4    0    -2   1  
+ inf   7   inf   0    4  
+ inf   3   inf  inf   0  
+
+
+Matrice P a l'iteration 4 :
+ 0  0  0  2  2 
+ 1  1  1  1  1 
+ 2  4  2  2  2 
+ 3  4  3  3  3 
+ 4  4  4  4  4 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 2 -> 3
+Le plus court chemin de 0 a 4 est :
+0 -> 2 -> 4
+Il n'existe pas de chemin entre 1 et 0.
+Le plus court chemin de 1 a 1 est :
+1
+Il n'existe pas de chemin entre 1 et 2.
+Il n'existe pas de chemin entre 1 et 3.
+Il n'existe pas de chemin entre 1 et 4.
+Il n'existe pas de chemin entre 2 et 0.
+Le plus court chemin de 2 a 1 est :
+2 -> 4 -> 1
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Le plus court chemin de 2 a 4 est :
+2 -> 4
+Il n'existe pas de chemin entre 3 et 0.
+Le plus court chemin de 3 a 1 est :
+3 -> 4 -> 1
+Il n'existe pas de chemin entre 3 et 2.
+Le plus court chemin de 3 a 3 est :
+3
+Le plus court chemin de 3 a 4 est :
+3 -> 4
+Il n'existe pas de chemin entre 4 et 0.
+Le plus court chemin de 4 a 1 est :
+4 -> 1
+Il n'existe pas de chemin entre 4 et 2.
+Il n'existe pas de chemin entre 4 et 3.
+Le plus court chemin de 4 a 4 est :
+4
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+10
+Affichage de la matrice d'adjacence : 
+  0    1   inf  inf  inf 
+ inf   0    2   inf  inf 
+ inf  inf   0    3   inf 
+ inf  inf  inf   0    -6 
+  0   inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0    1   inf  inf  inf 
+ inf   0    2   inf  inf 
+ inf  inf   0    3   inf 
+ inf  inf  inf   0    -6 
+  0    1   inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0  0 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  0  4  4  4 
+
+
+Matrice L a l'iteration 1 :
+  0    1    3   inf  inf 
+ inf   0    2   inf  inf 
+ inf  inf   0    3   inf 
+ inf  inf  inf   0    -6 
+  0    1    3   inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  1  0  0 
+ 1  1  1  1  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  0  1  4  4 
+
+
+Matrice L a l'iteration 2 :
+  0    1    3    6   inf 
+ inf   0    2    5   inf 
+ inf  inf   0    3   inf 
+ inf  inf  inf   0    -6 
+  0    1    3    6    0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  1  2  0 
+ 1  1  1  2  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  0  1  2  4 
+
+
+Matrice L a l'iteration 3 :
+  0    1    3    6    0  
+ inf   0    2    5    -1 
+ inf  inf   0    3    -3 
+ inf  inf  inf   0    -6 
+  0    1    3    6    0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  1  2  3 
+ 1  1  1  2  3 
+ 2  2  2  2  3 
+ 3  3  3  3  3 
+ 4  0  1  2  4 
+
+
+Matrice L a l'iteration 4 :
+ 0   1   3   6   0  
+ -1  0   2   5   -1 
+ -3  -2  0   3   -3 
+ -6  -5  -3  0   -6 
+ 0   1   3   6   0  
+
+
+Matrice P a l'iteration 4 :
+ 0  0  1  2  3 
+ 4  1  1  2  3 
+ 4  0  2  2  3 
+ 4  0  1  3  3 
+ 4  0  1  2  4 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 1 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 1 -> 2 -> 3
+Le plus court chemin de 0 a 4 est :
+0 -> 1 -> 2 -> 3 -> 4
+Le plus court chemin de 1 a 0 est :
+1 -> 2 -> 3 -> 4 -> 0
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 2 -> 3
+Le plus court chemin de 1 a 4 est :
+1 -> 2 -> 3 -> 4
+Le plus court chemin de 2 a 0 est :
+2 -> 3 -> 4 -> 0
+Le plus court chemin de 2 a 1 est :
+2 -> 3 -> 4 -> 0 -> 1
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Le plus court chemin de 2 a 4 est :
+2 -> 3 -> 4
+Le plus court chemin de 3 a 0 est :
+3 -> 4 -> 0
+Le plus court chemin de 3 a 1 est :
+3 -> 4 -> 0 -> 1
+Le plus court chemin de 3 a 2 est :
+3 -> 4 -> 0 -> 1 -> 2
+Le plus court chemin de 3 a 3 est :
+3
+Le plus court chemin de 3 a 4 est :
+3 -> 4
+Le plus court chemin de 4 a 0 est :
+4 -> 0
+Le plus court chemin de 4 a 1 est :
+4 -> 0 -> 1
+Le plus court chemin de 4 a 2 est :
+4 -> 0 -> 1 -> 2
+Le plus court chemin de 4 a 3 est :
+4 -> 0 -> 1 -> 2 -> 3
+Le plus court chemin de 4 a 4 est :
+4
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+11
+Affichage de la matrice d'adjacence : 
+  0   inf   2    1   inf 
+  1    2   inf  inf  inf 
+ inf  inf   0    -2  inf 
+ inf  inf  inf   0    4  
+ inf   3    -1  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0   inf   2    1   inf 
+  1    2    3    2   inf 
+ inf  inf   0    -2  inf 
+ inf  inf  inf   0    4  
+ inf   3    -1  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0  0 
+ 1  1  0  0  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 4  4  4  4  4 
+
+
+Matrice L a l'iteration 1 :
+  0   inf   2    1   inf 
+  1    2    3    2   inf 
+ inf  inf   0    -2  inf 
+ inf  inf  inf   0    4  
+  4    3    -1   5    0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  0  0 
+ 1  1  0  0  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 1  4  4  0  4 
+
+
+Matrice L a l'iteration 2 :
+  0   inf   2    0   inf 
+  1    2    3    1   inf 
+ inf  inf   0    -2  inf 
+ inf  inf  inf   0    4  
+  4    3    -1   -3   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  0  2  0 
+ 1  1  0  2  1 
+ 2  2  2  2  2 
+ 3  3  3  3  3 
+ 1  4  4  2  4 
+
+
+Matrice L a l'iteration 3 :
+  0   inf   2    0    4  
+  1    2    3    1    5  
+ inf  inf   0    -2   2  
+ inf  inf  inf   0    4  
+  4    3    -1   -3   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  0  2  3 
+ 1  1  0  2  3 
+ 2  2  2  2  3 
+ 3  3  3  3  3 
+ 1  4  4  2  4 
+
+
+Matrice L a l'iteration 4 :
+ 0   7   2   0   4  
+ 1   2   3   1   5  
+ 6   5   0   -2  2  
+ 8   7   3   0   4  
+ 4   3   -1  -3  0  
+
+
+Matrice P a l'iteration 4 :
+ 0  4  0  2  3 
+ 1  1  0  2  3 
+ 1  4  2  2  3 
+ 1  4  4  3  3 
+ 1  4  4  2  4 
+
+
+Le plus court chemin de 0 a 0 est :
+0
+Le plus court chemin de 0 a 1 est :
+0 -> 2 -> 3 -> 4 -> 1
+Le plus court chemin de 0 a 2 est :
+0 -> 2
+Le plus court chemin de 0 a 3 est :
+0 -> 2 -> 3
+Le plus court chemin de 0 a 4 est :
+0 -> 2 -> 3 -> 4
+Le plus court chemin de 1 a 0 est :
+1 -> 0
+Le plus court chemin de 1 a 1 est :
+1
+Le plus court chemin de 1 a 2 est :
+1 -> 0 -> 2
+Le plus court chemin de 1 a 3 est :
+1 -> 0 -> 2 -> 3
+Le plus court chemin de 1 a 4 est :
+1 -> 0 -> 2 -> 3 -> 4
+Le plus court chemin de 2 a 0 est :
+2 -> 3 -> 4 -> 1 -> 0
+Le plus court chemin de 2 a 1 est :
+2 -> 3 -> 4 -> 1
+Le plus court chemin de 2 a 2 est :
+2
+Le plus court chemin de 2 a 3 est :
+2 -> 3
+Le plus court chemin de 2 a 4 est :
+2 -> 3 -> 4
+Le plus court chemin de 3 a 0 est :
+3 -> 4 -> 1 -> 0
+Le plus court chemin de 3 a 1 est :
+3 -> 4 -> 1
+Le plus court chemin de 3 a 2 est :
+3 -> 4 -> 2
+Le plus court chemin de 3 a 3 est :
+3
+Le plus court chemin de 3 a 4 est :
+3 -> 4
+Le plus court chemin de 4 a 0 est :
+4 -> 1 -> 0
+Le plus court chemin de 4 a 1 est :
+4 -> 1
+Le plus court chemin de 4 a 2 est :
+4 -> 2
+Le plus court chemin de 4 a 3 est :
+4 -> 2 -> 3
+Le plus court chemin de 4 a 4 est :
+4
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+12
+Affichage de la matrice d'adjacence : 
+  0   inf   2    1   inf  inf  inf  inf 
+  1    0   inf  inf   1   inf  inf  inf 
+ inf  inf   0    -2  inf  inf  inf  inf 
+ inf  inf   7    0    4   inf  inf  inf 
+ inf   3    -1  inf   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   0    -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice L a l'iteration 0 :
+  0   inf   2    1   inf  inf  inf  inf 
+  1    0    3    2    1   inf  inf  inf 
+ inf  inf   0    -2  inf  inf  inf  inf 
+ inf  inf   7    0    4   inf  inf  inf 
+ inf   3    -1  inf   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   0    -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 0 :
+ 0  0  0  0  0  0  0  0 
+ 1  1  0  0  1  1  1  1 
+ 2  2  2  2  2  2  2  2 
+ 3  3  3  3  3  3  3  3 
+ 4  4  4  4  4  4  4  4 
+ 5  5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 1 :
+  0   inf   2    1   inf  inf  inf  inf 
+  1    0    3    2    1   inf  inf  inf 
+ inf  inf   0    -2  inf  inf  inf  inf 
+ inf  inf   7    0    4   inf  inf  inf 
+  4    3    -1   5    0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   0    -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 1 :
+ 0  0  0  0  0  0  0  0 
+ 1  1  0  0  1  1  1  1 
+ 2  2  2  2  2  2  2  2 
+ 3  3  3  3  3  3  3  3 
+ 1  4  4  0  4  4  4  4 
+ 5  5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 2 :
+  0   inf   2    0   inf  inf  inf  inf 
+  1    0    3    1    1   inf  inf  inf 
+ inf  inf   0    -2  inf  inf  inf  inf 
+ inf  inf   7    0    4   inf  inf  inf 
+  4    3    -1   -3   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   0    -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 2 :
+ 0  0  0  2  0  0  0  0 
+ 1  1  0  2  1  1  1  1 
+ 2  2  2  2  2  2  2  2 
+ 3  3  3  3  3  3  3  3 
+ 1  4  4  2  4  4  4  4 
+ 5  5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 3 :
+  0   inf   2    0    4   inf  inf  inf 
+  1    0    3    1    1   inf  inf  inf 
+ inf  inf   0    -2   2   inf  inf  inf 
+ inf  inf   7    0    4   inf  inf  inf 
+  4    3    -1   -3   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   0    -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 3 :
+ 0  0  0  2  3  0  0  0 
+ 1  1  0  2  1  1  1  1 
+ 2  2  2  2  3  2  2  2 
+ 3  3  3  3  3  3  3  3 
+ 1  4  4  2  4  4  4  4 
+ 5  5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 4 :
+  0    7    2    0    4   inf  inf  inf 
+  1    0    0    -2   1   inf  inf  inf 
+  6    5    0    -2   2   inf  inf  inf 
+  8    7    3    0    4   inf  inf  inf 
+  4    3    -1   -3   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   0    -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 4 :
+ 0  4  0  2  3  0  0  0 
+ 1  1  4  2  1  1  1  1 
+ 1  4  2  2  3  2  2  2 
+ 1  4  4  3  3  3  3  3 
+ 1  4  4  2  4  4  4  4 
+ 5  5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  6  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 5 :
+  0    7    2    0    4   inf  inf  inf 
+  1    0    0    -2   1   inf  inf  inf 
+  6    5    0    -2   2   inf  inf  inf 
+  8    7    3    0    4   inf  inf  inf 
+  4    3    -1   -3   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   0    1   inf 
+ inf  inf  inf  inf  inf   -2   -1   -2 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 5 :
+ 0  4  0  2  3  0  0  0 
+ 1  1  4  2  1  1  1  1 
+ 1  4  2  2  3  2  2  2 
+ 1  4  4  3  3  3  3  3 
+ 1  4  4  2  4  4  4  4 
+ 5  5  5  5  5  5  5  5 
+ 6  6  6  6  6  6  5  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 6 :
+  0    7    2    0    4   inf  inf  inf 
+  1    0    0    -2   1   inf  inf  inf 
+  6    5    0    -2   2   inf  inf  inf 
+  8    7    3    0    4   inf  inf  inf 
+  4    3    -1   -3   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   -1   0    -2 
+ inf  inf  inf  inf  inf   -3   -2   -4 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 6 :
+ 0  4  0  2  3  0  0  0 
+ 1  1  4  2  1  1  1  1 
+ 1  4  2  2  3  2  2  2 
+ 1  4  4  3  3  3  3  3 
+ 1  4  4  2  4  4  4  4 
+ 5  5  5  5  5  6  5  6 
+ 6  6  6  6  6  6  5  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Matrice L a l'iteration 7 :
+  0    7    2    0    4   inf  inf  inf 
+  1    0    0    -2   1   inf  inf  inf 
+  6    5    0    -2   2   inf  inf  inf 
+  8    7    3    0    4   inf  inf  inf 
+  4    3    -1   -3   0   inf  inf  inf 
+ inf  inf  inf  inf  inf   -1   0    -2 
+ inf  inf  inf  inf  inf   -3   -2   -4 
+ inf  inf  inf  inf  inf  inf  inf   0  
+
+
+Matrice P a l'iteration 7 :
+ 0  4  0  2  3  0  0  0 
+ 1  1  4  2  1  1  1  1 
+ 1  4  2  2  3  2  2  2 
+ 1  4  4  3  3  3  3  3 
+ 1  4  4  2  4  4  4  4 
+ 5  5  5  5  5  6  5  6 
+ 6  6  6  6  6  6  5  6 
+ 7  7  7  7  7  7  7  7 
+
+
+Ce graphe contient un cycle absorbant.
+Souhaitez-vous continuer (y/n) ?
+Veuillez entrer l'identifiant de la matrice :
+13
 Affichage de la matrice d'adjacence : 
   0   inf   2    1   inf  inf  inf  inf 
   1    0   inf  inf   1   inf  inf  inf 
