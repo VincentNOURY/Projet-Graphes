@@ -164,7 +164,7 @@ def contains_negative_circle(matrix: list) -> bool:
     return False
 
 
-def shortest_path(p_matrix: list, l_matrix : list):
+def shortest_path(p_matrix: list, l_matrix: list):
     """
     Descrition : Displays the sortest path from a point A to a point B
 
