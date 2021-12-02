@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint --disable=C0103 L3NEW-A8-rendu.py
+        pylint --disable=C0103 A8-rendu.py
