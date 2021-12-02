@@ -201,7 +201,7 @@ def main():
 
     while True:
         print("Veuillez entrer l'identifiant de la matrice :")
-        matrix_info = read_matrix(f"Graphs/graph{int(input())}.txt")
+        matrix_info = read_matrix(f"L3NEW-A8-graph{int(input())}.txt")
         nbr_vertices = matrix_info[0]
         edges = matrix_info[2]
         edges_treatment(edges)
