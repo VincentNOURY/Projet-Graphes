@@ -3,8 +3,8 @@ Description : Takes a representation of a graph with weights and applies
               the floyd-Warshall algorithm to print the shortest path
               for each point.
 
-Usage : python3 "A-117 main.py"
-        will ask the user which matrix to use (indices goes from 0)
+Usage : python3 "A8-rendu.py"
+        will ask the user which matrix to use (indices goes from -1 to 13)
 
 Arguments : None
 """
